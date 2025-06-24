@@ -1,11 +1,13 @@
 import { Song } from '../types/music';
 // import sahsra from '../../public/assets/songs/vishnu-sahasranamam.mp3';
-import eniniyathanimaiye from '../../public/assets/songs/vishnu-sahasranamam.mp3';
+import eniniyathanimaiye from '../../public/assets/songs/En-Iniya-Thanimaye-MassTamilan.io.mp3';
 import mannipaya from '../../public/assets/songs/Mannipaaya.mp3';
 import nenjenenje from '../../public/assets/songs/Nenje Nenje.mp3';
 import nenjukul from '../../public/assets/songs/Nenjukkul-Peidhidum-MassTamilan.com.mp3';
 import parapara from '../../public/assets/songs/Para-Para.mp3';
 import rasali from '../../public/assets/songs/Rasaali.mp3';
+import ennavilai from '../../public/assets/songs/Enna-Vilai.mp3';
+
 
 // Sample audio files - Replace these URLs with your actual audio files
 export const songs: Song[] = [
@@ -55,7 +57,7 @@ export const songs: Song[] = [
     audioUrl: rasali 
   },
   {
-    id: '5',
+    id: '6',
     title: 'En iniya Thanimaiye',
     artist: 'A.R.rahman',
     album: 'AYM',
@@ -63,5 +65,13 @@ export const songs: Song[] = [
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: eniniyathanimaiye 
   },
- 
+ {
+    id: '7',
+    title: 'Enna vilai',
+    artist: 'A.R.rahman',
+    album: 'Kadhalar Dhinam',
+    duration: 261,
+    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    audioUrl: ennavilai
+  },
 ];
