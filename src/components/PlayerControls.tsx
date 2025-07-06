@@ -29,6 +29,7 @@ interface PlayerControlsProps {
   onVolumeChange: (volume: number) => void;
   onShuffleToggle: () => void;
   onRepeatToggle: () => void;
+  
 }
 
 export const PlayerControls: React.FC<PlayerControlsProps> = ({
@@ -58,16 +59,22 @@ export const PlayerControls: React.FC<PlayerControlsProps> = ({
     );
   }
 
-  const progressPercentage = (currentTime / currentSong.duration) * 100;
+const progressPercentage =
+  currentSong && typeof currentSong.duration === 'number' && currentSong.duration > 0
+    ? (currentTime / currentSong.duration) * 100
+    : 0;
 
-  const handleProgressClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const clickX = e.clientX - rect.left;
-    const width = rect.width;
-    const clickPercentage = clickX / width;
-    const newTime = clickPercentage * currentSong.duration;
-    onSeek(newTime);
-  };
+ const handleProgressClick = (e: React.MouseEvent<HTMLDivElement>) => {
+  if (!currentSong || typeof currentSong.duration !== 'number') return;
+
+  const rect = e.currentTarget.getBoundingClientRect();
+  const clickX = e.clientX - rect.left;
+  const width = rect.width;
+  const clickPercentage = clickX / width;
+  const newTime = clickPercentage * currentSong.duration;
+  onSeek(newTime);
+};
+
 
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-t from-gray-900 via-gray-900/95 to-transparent backdrop-blur-sm border-t border-gray-800">
@@ -95,7 +102,10 @@ export const PlayerControls: React.FC<PlayerControlsProps> = ({
         </div>
         <div className="flex justify-between text-xs text-gray-400 mt-1">
           <span>{formatTime(currentTime)}</span>
-          <span>{formatTime(currentSong.duration)}</span>
+         {currentSong?.duration !== undefined && (
+  <span>{formatTime(currentSong.duration)}</span>
+)}
+
         </div>
       </div>
 

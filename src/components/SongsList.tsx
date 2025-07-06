@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Music } from 'lucide-react';
 import { Song } from '../types/music';
 import { SongItem } from './SongItem';
@@ -16,6 +16,14 @@ export const SongsList: React.FC<SongsListProps> = ({
   isPlaying,
   onSongSelect
 }) => {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const filteredSongs = songs
+    .filter((song) =>
+      song.title.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+    .sort((a, b) => a.title.localeCompare(b.title));
+
   return (
     <div className="h-full overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent">
       <div className="sticky top-0 bg-gray-900/95 backdrop-blur-sm z-10 p-4 border-b border-gray-800">
@@ -28,21 +36,31 @@ export const SongsList: React.FC<SongsListProps> = ({
             <p className="text-sm text-gray-400">{songs.length} songs</p>
           </div>
         </div>
+
+        {/* 🔍 Search Bar */}
+        <div className="mt-4">
+          <input
+            type="text"
+            placeholder="Search by title..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full px-4 py-2 text-sm text-white bg-gray-800 rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          />
+        </div>
       </div>
-      
-    <div className="pb-4">
-  {songs
-    .sort((a, b) => a.title.localeCompare(b.title))
-    .map((song) => (
-      <SongItem
-        key={song.id}
-        song={song}
-        isActive={currentSong?.id === song.id}
-        isPlaying={isPlaying && currentSong?.id === song.id}
-        onSelect={onSongSelect}
-      />
-    ))}
-</div>
+
+      {/* 🎵 Filtered Song List */}
+      <div className="pb-4">
+        {filteredSongs.map((song) => (
+          <SongItem
+            key={song.id}
+            song={song}
+            isActive={currentSong?.id === song.id}
+            isPlaying={isPlaying && currentSong?.id === song.id}
+            onSelect={onSongSelect}
+          />
+        ))}
+      </div>
     </div>
   );
 };

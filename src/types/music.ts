@@ -5,6 +5,7 @@ export interface Song {
   album: string;
   cover: string;
   audioUrl: string;
+duration?:number;
 }
 
 export interface PlayerState {

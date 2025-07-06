@@ -109,6 +109,20 @@ import enidhayam from '../../public/assets/songscover/enidhayam.jpeg'
 import eniniya from '../../public/assets/songscover/eniniyathanimiye.jpg'
 import enjannal from '../../public/assets/songscover/enjannal.jpg'
 
+import ayayo from '../../public/assets/songscover/ayayo.jpeg'
+import enamo from '../../public/assets/songscover/enamoetho.jpeg'
+import enjeev from '../../public/assets/songscover/enjeevan.jpeg'
+import ennavilai from '../../public/assets/songscover/ennavilai.jpeg'
+import evandi from '../../public/assets/songscover/evandi.jpeg'
+import eysanda from '../../public/assets/songscover/eysandakara.jpeg'
+import heyminnale from '../../public/assets/songscover/heyminnale.jpg'
+import loveu from '../../public/assets/songscover/heyminnale.jpg'
+import inukon from '../../public/assets/songscover/inukonjanemram.jpg'
+import irumbile from '../../public/assets/songscover/irumbile.jpeg'
+import ithuvarai from '../../public/assets/songscover/ithuvarai.jpg'
+import podapo from '../../public/assets/songscover/podapod.jpg'
+
+
 
 
 
@@ -207,7 +221,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: enjeev,
     audioUrl: en_jeevan
   },
   {
@@ -216,7 +230,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: enamo,
     audioUrl: ennamo_yeatho
   },
   {
@@ -225,7 +239,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: ennavilai,
     audioUrl: enna_vilai
   },
   {
@@ -234,7 +248,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: evandi,
     audioUrl: evan_di_unna_pethan
   },
   {
@@ -243,7 +257,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: heyminnale,
     audioUrl: hey_minnale
   },
   {
@@ -252,7 +266,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: eysanda,
     audioUrl: hey_sandakkara
   },
   {
@@ -261,7 +275,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: ayayo,
     audioUrl: iayayo
   },
   {
@@ -270,7 +284,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: inukon,
     audioUrl: innum_konjam_neram
   },
   {
@@ -676,7 +690,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: podapo,
   audioUrl: hare_rama_krishna
 },
 {
@@ -685,7 +699,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: loveu,
   audioUrl: i_love_you
 },
 {
@@ -694,7 +708,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: ithuvarai,
   audioUrl: idhu_varai
 },
 {
@@ -703,7 +717,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: irumbile,
   audioUrl: irumible_oru_idhayam
 },
 {
