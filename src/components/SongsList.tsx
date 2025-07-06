@@ -30,17 +30,19 @@ export const SongsList: React.FC<SongsListProps> = ({
         </div>
       </div>
       
-      <div className="pb-4">
-        {songs.map((song) => (
-          <SongItem
-            key={song.id}
-            song={song}
-            isActive={currentSong?.id === song.id}
-            isPlaying={isPlaying && currentSong?.id === song.id}
-            onSelect={onSongSelect}
-          />
-        ))}
-      </div>
+    <div className="pb-4">
+  {songs
+    .sort((a, b) => a.title.localeCompare(b.title))
+    .map((song) => (
+      <SongItem
+        key={song.id}
+        song={song}
+        isActive={currentSong?.id === song.id}
+        isPlaying={isPlaying && currentSong?.id === song.id}
+        onSelect={onSongSelect}
+      />
+    ))}
+</div>
     </div>
   );
 };

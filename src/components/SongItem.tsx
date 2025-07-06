@@ -47,9 +47,7 @@ export const SongItem: React.FC<SongItemProps> = ({
         <p className="text-sm text-gray-400 truncate">{song.artist}</p>
       </div>
       
-      <div className="text-sm text-gray-400 ml-4">
-        {formatTime(song.duration)}
-      </div>
+     
     </div>
   );
 };

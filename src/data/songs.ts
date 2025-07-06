@@ -57,7 +57,46 @@ import vaanam from '../../public/assets/songs/Vaanam.mp3';
 import vennmathiye from '../../public/assets/songs/Venmathiye.mp3';
 import venpaniye from '../../public/assets/songs/Venpaniye.mp3';
 import yen_minukki_masstamilan_org from '../../public/assets/songs/Yen-Minukki-MassTamilan.org.mp3';
+import anbenum_masstamilan from '../../public/assets/songs/Anbenum-MassTamilan.dev.mp3';
+import appane_pillaiyarappane_masstamilan from '../../public/assets/songs/Appane-Pillaiyarappane-MassTamilan.dev.mp3';
+import arabic_kuthu_masstamilan from '../../public/assets/songs/Arabic-Kuthu---Halamithi-Habibo-MassTamilan.so.mp3';
+import bhoomiku from '../../public/assets/songs/Bhoomiku.mp3';
+import chikitu_masstamilan from '../../public/assets/songs/Chikitu-MassTamilan.dev.mp3';
+import chotta_chotta_nanaya from '../../public/assets/songs/Chotta-Chotta-Nanaya.mp3';
+import en_idhayam from '../../public/assets/songs/En-Idhayam.mp3';
+import hare_rama_krishna from '../../public/assets/songs/Hare-Rama-Hare-Krishna.mp3';
+import i_love_you from '../../public/assets/songs/I-Love-You.mp3';
+import idhu_varai from '../../public/assets/songs/Idhu-Varai.mp3';
+import irumible_oru_idhayam from '../../public/assets/songs/Irumbile-Oru-Idhaiyam.mp3';
+import kadal_anukkal from '../../public/assets/songs/Kadal-Anukkal.mp3';
+import kandukondain_kandukondain from '../../public/assets/songs/Kandukondain-Kandukondain.mp3';
+import kannamoochi_yenada from '../../public/assets/songs/Kannamoochi-Yenada.mp3';
+import karikalan_kala_pola from '../../public/assets/songs/Karikalan-Kala-Pola.mp3';
+import konjum_mainakkale from '../../public/assets/songs/Konjum-Mainakkale.mp3';
+import mayam_seidhayo from '../../public/assets/songs/Mayam-Seidhayo.mp3';
+import naane_indhiran from '../../public/assets/songs/Naane-Indhiran.mp3';
+import nenjangootti_neeye from '../../public/assets/songs//Nenjangootil-Neeye.mp3';
+import oru_thaali_ragam from '../../public/assets/songs/Oru-Thalai-Ragam.mp3';
+import poo_mudal_pen_varai from '../../public/assets/songs/Poo-Mudhal-Pen-Varai.mp3';
+import sollamal_thottu from '../../public/assets/songs/Sollamal-Thottu-Chellum-Thendral.mp3';
+import thalattum_katre_vaa from '../../public/assets/songs/Thalattum-Katre-Vaa-MassTamilan.dev.mp3';
+import thattan_thattaan from '../../public/assets/songs/Thattaan-Thattaan-MassTamilan.fm.mp3';
+import unnai_paartha_pinbu from '../../public/assets/songs/Unnai-Paartha-Pinbu.mp3';
+import unnoodu_vaazha from '../../public/assets/songs/Unnodu-Vaazhatha.mp3';
+import urugudhe_maragudhe from '../../public/assets/songs/Urugudhe-Maragudhe.mp3';
+import vaa_rayil_vida_polaama from '../../public/assets/songs/Vaa-Rayil-Vida-Polaama-MassTamilan.com.mp3';
+import velicha_poove from '../../public/assets/songs/Velicha-Poove.mp3';
+import veyilodu_vilayadi from '../../public/assets/songs/Veyilodu-Vilayadi.mp3';
+import vithi_moodi_yosithaal from '../../public/assets/songs/Vizhi Moodi Yosithaal.mp3';
+import vizhigalil_aruginil_vaanam from '../../public/assets/songs/Vizhigalin-Aruginil-Vaanam-MassTamilan.com.mp3';
+import vizhiyil_un_vizhiyil from '../../public/assets/songs/Vizhiyil-Un-Vizhiyil.mp3';
 
+// cover
+import aedho from "../../public/assets/songscover/ethoseikirai.jpg"
+import alai from "../../public/assets/songscover/alaipayuthae.png"
+import ammadi from "../../public/assets/songscover/ammadiathadi.jpg"
+import andartica from  "../../public/assets/songscover/andartica.jpeg"
+import anbenum from "../../public/assets/songscover/anbenum.jpg"
 
 // Sample audio files - Replace these URLs with your actual audio files
 export const songs: Song[] = [
@@ -66,8 +105,7 @@ export const songs: Song[] = [
     title: 'Aedho Saigirai',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: aedho,
     audioUrl: aedho_saigirai
   },
   {
@@ -75,8 +113,7 @@ export const songs: Song[] = [
     title: 'Alaipayuthey Kanna',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: alai,
     audioUrl: alaipayuthey_kanna
   },
   {
@@ -84,8 +121,7 @@ export const songs: Song[] = [
     title: 'Ammadi Athadi MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: ammadi,
     audioUrl: ammadi_athadi_masstamilan_org
   },
   {
@@ -93,8 +129,7 @@ export const songs: Song[] = [
     title: 'Antartica MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: andartica,
     audioUrl: antartica_masstamilan_fm
   },
   {
@@ -102,7 +137,7 @@ export const songs: Song[] = [
     title: 'Arabu Naad',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: arabu_naad
   },
@@ -111,7 +146,7 @@ export const songs: Song[] = [
     title: 'Azhakana Rasathaiye',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: azhakana_rasathaiye
   },
@@ -120,7 +155,7 @@ export const songs: Song[] = [
     title: 'Chinna Chinnathai Penn',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: chinna_chinnathai_penn
   },
@@ -129,7 +164,7 @@ export const songs: Song[] = [
     title: 'Chudithar Aninthu Vanthu',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: chudithar_aninthu_vanthu
   },
@@ -138,7 +173,7 @@ export const songs: Song[] = [
     title: 'En Iniya Thanimaye MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: en_iniya_thanimaye_masstamilan_io
   },
@@ -147,7 +182,7 @@ export const songs: Song[] = [
     title: 'En Jannal Vandha',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: en_jannal_vandha
   },
@@ -156,7 +191,7 @@ export const songs: Song[] = [
     title: 'En Jeevan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: en_jeevan
   },
@@ -165,7 +200,7 @@ export const songs: Song[] = [
     title: 'Ennamo Yeatho',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: ennamo_yeatho
   },
@@ -174,7 +209,7 @@ export const songs: Song[] = [
     title: 'Enna Vilai',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: enna_vilai
   },
@@ -183,7 +218,7 @@ export const songs: Song[] = [
     title: 'Evan Di Unna Pethan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: evan_di_unna_pethan
   },
@@ -192,7 +227,7 @@ export const songs: Song[] = [
     title: 'Hey Minnale',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: hey_minnale
   },
@@ -201,7 +236,7 @@ export const songs: Song[] = [
     title: 'Hey Sandakkara',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: hey_sandakkara
   },
@@ -210,7 +245,7 @@ export const songs: Song[] = [
     title: 'Iayayo',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: iayayo
   },
@@ -219,7 +254,7 @@ export const songs: Song[] = [
     title: 'Innum Konjam Neram',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: innum_konjam_neram
   },
@@ -228,7 +263,7 @@ export const songs: Song[] = [
     title: 'Kaatrukulle',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: kaatrukulle
   },
@@ -237,7 +272,7 @@ export const songs: Song[] = [
     title: 'Kadhal Vaithu',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: kadhal_vaithu
   },
@@ -246,7 +281,7 @@ export const songs: Song[] = [
     title: 'Kadhal Valarthen',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: kadhal_valarthen
   },
@@ -255,7 +290,7 @@ export const songs: Song[] = [
     title: 'Kadhal Vandhale MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: kadhal_vandhale_masstamilan_org
   },
@@ -264,7 +299,7 @@ export const songs: Song[] = [
     title: 'Kannana Kanney MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: kannana_kanney_masstamilan_fm
   },
@@ -273,7 +308,7 @@ export const songs: Song[] = [
     title: 'Loosu Penne MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: loosu_penne_masstamilan_fm
   },
@@ -282,7 +317,7 @@ export const songs: Song[] = [
     title: 'Machaan Machaan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: machaan_machaan
   },
@@ -291,7 +326,7 @@ export const songs: Song[] = [
     title: 'Mannipaaya',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: mannipaaya
   },
@@ -300,7 +335,7 @@ export const songs: Song[] = [
     title: 'Meghame O Meghame',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: meghame_o_meghame
   },
@@ -309,7 +344,7 @@ export const songs: Song[] = [
     title: 'Minnalgal Koothadum',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: minnalgal_koothadum
   },
@@ -318,7 +353,7 @@ export const songs: Song[] = [
     title: 'Nee Singam Dhan MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: nee_singam_dhan_masstamilan_dev
   },
@@ -327,7 +362,7 @@ export const songs: Song[] = [
     title: 'Nenje Nenje',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: nenje_nenje
   },
@@ -336,7 +371,7 @@ export const songs: Song[] = [
     title: 'Nenjukkul Peidhidum MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: nenjukkul_peidhidum_masstamilan_com
   },
@@ -345,7 +380,7 @@ export const songs: Song[] = [
     title: 'No Money No Honey',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: no_money_no_honey
   },
@@ -354,7 +389,7 @@ export const songs: Song[] = [
     title: 'Ore Nyabagam',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: ore_nyabagam
   },
@@ -363,7 +398,7 @@ export const songs: Song[] = [
     title: 'Oru Punnagai Thane',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: oru_punnagai_thane
   },
@@ -372,7 +407,7 @@ export const songs: Song[] = [
     title: 'Paakathey Paakathey',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: paakathey_paakathey
   },
@@ -381,7 +416,7 @@ export const songs: Song[] = [
     title: 'Para Para',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: para_para
   },
@@ -390,7 +425,7 @@ export const songs: Song[] = [
     title: 'Poda Poda',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: poda_poda
   },
@@ -399,7 +434,7 @@ export const songs: Song[] = [
     title: 'Pogadhey Pogadhey',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: pogadhey_pogadhey
   },
@@ -408,7 +443,7 @@ export const songs: Song[] = [
     title: 'Poi Varavaa MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: poi_varavaa_masstamilan_fm
   },
@@ -417,7 +452,7 @@ export const songs: Song[] = [
     title: 'Pookal Pookum',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: pookal_pookum
   },
@@ -426,7 +461,7 @@ export const songs: Song[] = [
     title: 'Poongatre Poongatre',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: poongatre_poongatre
   },
@@ -435,7 +470,7 @@ export const songs: Song[] = [
     title: 'Poo Pookum Osai',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: poo_pookum_osai
   },
@@ -444,7 +479,7 @@ export const songs: Song[] = [
     title: 'Rasaali',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: rasaali
   },
@@ -453,7 +488,7 @@ export const songs: Song[] = [
     title: 'Sakkara MassTamilan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: sakkara_masstamilan_com
   },
@@ -462,7 +497,7 @@ export const songs: Song[] = [
     title: 'Shakaklakka Baby',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: shakaklakka_baby
   },
@@ -471,7 +506,7 @@ export const songs: Song[] = [
     title: 'Siragugal',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: siragugal
   },
@@ -480,7 +515,7 @@ export const songs: Song[] = [
     title: 'Sudasuda Thooral',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: sudasuda_thooral
   },
@@ -489,7 +524,7 @@ export const songs: Song[] = [
     title: 'Thaakuthe',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: thaakuthe
   },
@@ -498,7 +533,7 @@ export const songs: Song[] = [
     title: 'Thenmerku Paruva Kaatru',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: thenmerku_paruva_kaatru
   },
@@ -507,7 +542,7 @@ export const songs: Song[] = [
     title: 'Thooovaanam',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: thooovaanam
   },
@@ -516,7 +551,7 @@ export const songs: Song[] = [
     title: 'Un Mela Aasadhan',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: un_mela_aasadhan
   },
@@ -525,7 +560,7 @@ export const songs: Song[] = [
     title: 'Uyire En Uyire',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: uyire_en_uyire
   },
@@ -534,7 +569,7 @@ export const songs: Song[] = [
     title: 'Vaanam',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: vaanam
   },
@@ -543,7 +578,7 @@ export const songs: Song[] = [
     title: 'Vennmathiye',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: vennmathiye
   },
@@ -552,18 +587,321 @@ export const songs: Song[] = [
     title: 'Venpaniye',
     artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: venpaniye
   },
 
   {
-    id: '57',
+  id: '56',
+  title: 'Anbenum',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: anbenum,
+  audioUrl: anbenum_masstamilan
+},
+{
+  id: '57',
+  title: 'Appane Pillaiyarappane',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: appane_pillaiyarappane_masstamilan
+},
+{
+  id: '58',
+  title: 'Arabic Kuthu',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: arabic_kuthu_masstamilan
+},
+{
+  id: '59',
+  title: 'Bhoomiku',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: bhoomiku
+},
+{
+  id: '60',
+  title: 'Chikitu',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: chikitu_masstamilan
+},
+{
+  id: '61',
+  title: 'Chotta Chotta Nanaya',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: chotta_chotta_nanaya
+},
+{
+  id: '62',
+  title: 'En Idhayam',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: en_idhayam
+},
+{
+  id: '63',
+  title: 'Hare Rama Hare Krishna',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: hare_rama_krishna
+},
+{
+  id: '64',
+  title: 'I Love You',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: i_love_you
+},
+{
+  id: '65',
+  title: 'Idhu Varai',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: idhu_varai
+},
+{
+  id: '66',
+  title: 'Irumible Oru Idhayam',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: irumible_oru_idhayam
+},
+{
+  id: '67',
+  title: 'Kadal Anukkal',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: kadal_anukkal
+},
+{
+  id: '68',
+  title: 'Kandukondain Kandukondain',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: kandukondain_kandukondain
+},
+{
+  id: '69',
+  title: 'Kannamoochi Yenada',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: kannamoochi_yenada
+},
+{
+  id: '70',
+  title: 'Karikalan Kala Pola',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: karikalan_kala_pola
+},
+{
+  id: '71',
+  title: 'Konjum Mainakkale',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: konjum_mainakkale
+},
+{
+  id: '72',
+  title: 'Mayam Seidhayo',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: mayam_seidhayo
+},
+{
+  id: '73',
+  title: 'Naane Indhiran',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: naane_indhiran
+},
+{
+  id: '74',
+  title: 'Nenjangootti Neeye',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: nenjangootti_neeye
+},
+{
+  id: '75',
+  title: 'Oru Thaali Ragam',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: oru_thaali_ragam
+},
+{
+  id: '76',
+  title: 'Poo Mudal Pen Varai',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: poo_mudal_pen_varai
+},
+{
+  id: '77',
+  title: 'Sollamal Thottu Chellum Thendral',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: sollamal_thottu
+},
+{
+  id: '78',
+  title: 'Thalattum Katre Vaa',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: thalattum_katre_vaa
+},
+{
+  id: '79',
+  title: 'Thattan Thattaan',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: thattan_thattaan
+},
+{
+  id: '80',
+  title: 'Unnai Paartha Pinbu',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: unnai_paartha_pinbu
+},
+{
+  id: '81',
+  title: 'Unnoodu Vaazha',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: unnoodu_vaazha
+},
+{
+  id: '82',
+  title: 'Urugudhe Maragudhe',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: urugudhe_maragudhe
+},
+{
+  id: '83',
+  title: 'Vaa Rayil Vida Polaama',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: vaa_rayil_vida_polaama
+},
+{
+  id: '84',
+  title: 'Velicha Poove',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: velicha_poove
+},
+{
+  id: '85',
+  title: 'Veyilodu Vilayadi',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: veyilodu_vilayadi
+},
+
+
+
+
+
+{
+  id: '87',
+  title: 'Vithi Moodi Yosithaal',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: vithi_moodi_yosithaal
+},
+{
+  id: '88',
+  title: 'Vizhigalil Aruginil Vaanam',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: vizhigalil_aruginil_vaanam
+},
+{
+  id: '89',
+  title: 'Vizhiyil Un Vizhiyil',
+  artist: 'Unknown',
+  album: 'Unknown',
+  
+  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  audioUrl: vizhiyil_un_vizhiyil
+},
+{
+  id: '90',
     title: 'Yen Minukki MassTamilan',
-    artist: 'Unknown',
+   artist: 'Unknown',
     album: 'Unknown',
-    duration: 240,
+    
     cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
     audioUrl: yen_minukki_masstamilan_org
   }
+
 ];
