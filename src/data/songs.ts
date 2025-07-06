@@ -97,6 +97,21 @@ import alai from "../../public/assets/songscover/alaipayuthae.png"
 import ammadi from "../../public/assets/songscover/ammadiathadi.jpg"
 import andartica from  "../../public/assets/songscover/andartica.jpeg"
 import anbenum from "../../public/assets/songscover/anbenum.jpg"
+import arabickuthu from '../../public/assets/songscover/arabikuthu.jpeg'
+import arabu from '../../public/assets/songscover/arabu.jpg'
+import azhagna from '../../public/assets/songscover/azhaganarat.jpeg'
+import bhoomiu from '../../public/assets/songscover/bhoomiku.jpeg'
+import chiinachinna from '../../public/assets/songscover/chiinachinnathaipenne.jpeg'
+import chikutuvibe from '../../public/assets/songscover/chikutuvibe.jpeg'
+import chotta from '../../public/assets/songscover/chottchotta.jpg'
+import chudi from '../../public/assets/songscover/chuditharaninthu.jpg'
+import enidhayam from '../../public/assets/songscover/enidhayam.jpeg'
+import eniniya from '../../public/assets/songscover/eniniyathanimiye.jpg'
+import enjannal from '../../public/assets/songscover/enjannal.jpg'
+
+
+
+
 
 // Sample audio files - Replace these URLs with your actual audio files
 export const songs: Song[] = [
@@ -138,7 +153,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: arabu,
     audioUrl: arabu_naad
   },
   {
@@ -147,7 +162,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: azhagna,
     audioUrl: azhakana_rasathaiye
   },
   {
@@ -156,7 +171,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: chiinachinna,
     audioUrl: chinna_chinnathai_penn
   },
   {
@@ -165,7 +180,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: chudi,
     audioUrl: chudithar_aninthu_vanthu
   },
   {
@@ -174,7 +189,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: eniniya,
     audioUrl: en_iniya_thanimaye_masstamilan_io
   },
   {
@@ -183,7 +198,7 @@ export const songs: Song[] = [
     artist: 'Unknown',
     album: 'Unknown',
     
-    cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+    cover: enjannal,
     audioUrl: en_jannal_vandha
   },
   {
@@ -616,7 +631,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: arabickuthu,
   audioUrl: arabic_kuthu_masstamilan
 },
 {
@@ -625,7 +640,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: bhoomiu,
   audioUrl: bhoomiku
 },
 {
@@ -634,7 +649,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: chikutuvibe,
   audioUrl: chikitu_masstamilan
 },
 {
@@ -643,7 +658,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: chotta,
   audioUrl: chotta_chotta_nanaya
 },
 {
@@ -652,7 +667,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: 'https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=300&h=300',
+  cover: enidhayam,
   audioUrl: en_idhayam
 },
 {
