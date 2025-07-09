@@ -90,6 +90,55 @@ import veyilodu_vilayadi from '../../public/assets/songs/Veyilodu-Vilayadi.mp3';
 import vithi_moodi_yosithaal from '../../public/assets/songs/Vizhi Moodi Yosithaal.mp3';
 import vizhigalil_aruginil_vaanam from '../../public/assets/songs/Vizhigalin-Aruginil-Vaanam-MassTamilan.com.mp3';
 import vizhiyil_un_vizhiyil from '../../public/assets/songs/Vizhiyil-Un-Vizhiyil.mp3';
+import asai_asai from '../../public/assets/songs/Aasai Aasai.mp3';
+import anbe_sivam from '../../public/assets/songs/Anbe Sivam.mp3';
+import anbe_anbe from '../../public/assets/songs/Anbe-Anbe.mp3';
+import antha_nilavathan_masstamilan_io from '../../public/assets/songs/Antha-Nilavathan-MassTamilan.io.mp3';
+import azhagooril_poothavale from '../../public/assets/songs/Azhagooril-Poothavale.mp3';
+import dhimsu_katta from '../../public/assets/songs/Dhimsu-Katta.mp3';
+import en_uyire from '../../public/assets/songs/En-Uyire.mp3';
+import ennake_ennake from '../../public/assets/songs/Ennake-Ennaka.mp3';
+import ennavale_ennavale from '../../public/assets/songs/Ennavale-Ennavale.mp3';
+import ennodu_laila from '../../public/assets/songs/Ennoda-Laila.mp3';
+import idhuthanaa from '../../public/assets/songs/Idhuthaanaa.mp3';
+import ilankaathu_veesuthey from '../../public/assets/songs/Ilankaathu-Veesuthey.mp3';
+import kaadhal_vandhal from '../../public/assets/songs/Kaadhal-Vandhal.mp3';
+import kadhal_oviyam_masstamilan_io from '../../public/assets/songs/Kadhal-Oviyam-MassTamilan.io.mp3';
+import kadhal_solvadhu from '../../public/assets/songs/Kadhal-Solvadhu.mp3';
+import kammaniye_masstamilan_com from '../../public/assets/songs/Kanmaniyae-MassTamilan.com.mp3';
+import kannoodu_kanbarellam from '../../public/assets/songs/Kannodu-Kaanberallam.mp3';
+import malligaiye_malligaiye from '../../public/assets/songs/Malligaiye-Malligaiye.mp3';
+import margazhi_thingal from '../../public/assets/songs/Margazhi-Thingal.mp3';
+import master_the_blaster_masstamilan_io from '../../public/assets/songs/Master-the-Blaster-MassTamilan.io.mp3';
+import may_madham from '../../public/assets/songs/May Madham.mp3';
+import mazhai_varum_arikuri from '../../public/assets/songs/Mazhai-Varum-Arikuri.mp3';
+import melliname_mellinamae from '../../public/assets/songs/Mellinamae Mellinamae.mp3';
+import minnalai_pidithu from '../../public/assets/songs/Minnalai Pidithu.mp3';
+import munbe_vaa from '../../public/assets/songs/Munbe Vaa.mp3';
+import nee_kaatru_naan_maram_masstamilan_com from '../../public/assets/songs/Nee-Kaatru-Naan-Maram-MassTamilan.com.mp3';
+import nee_thoongum_naerathil_masstamilan_com from '../../public/assets/songs/Nee-Thoongum-Naerathil-MassTamilan.com.mp3';
+import nenjinline_nenjinline from '../../public/assets/songs/Nenjinile-Nenjinile.mp3';
+import new_york_nagaram from '../../public/assets/songs/New York Nagaram.mp3';
+import nilavai_kondu_vaa from '../../public/assets/songs/Nilavai-Kondu-Vaa.mp3';
+import oru_koottu_kili from '../../public/assets/songs/Oru Koottu Kili.mp3';
+import oru_thadavai from '../../public/assets/songs/Oru Thadavai.mp3';
+import oru_jeevan_azhaithathu_masstamilan_io from '../../public/assets/songs/Oru-Jeevan-Azhaithathu-MassTamilan.io.mp3';
+import poi_solla_intha_manasukku from '../../public/assets/songs/Poi-Solla-Intha-Manasukku.mp3';
+import poovaasam from '../../public/assets/songs/Poovaasam.mp3';
+import poovukkul from '../../public/assets/songs/Poovukkul.mp3';
+import pottu_vaithu from '../../public/assets/songs/Pottu-Vaithu.mp3';
+import pudichirukku from '../../public/assets/songs/Pudichirukku.mp3';
+import sahana_saral_thoo from '../../public/assets/songs/Sahana-Saral-Thoo.mp3';
+import sandhossa_kanneere from '../../public/assets/songs/Sandhosa-Kanneere.mp3';
+import senthoora_poove from '../../public/assets/songs/Senthoora-Poove.mp3';
+import sona_sona from '../../public/assets/songs/Sona-Sona.mp3';
+import thaiyya_thaiyya from '../../public/assets/songs/Thaiyya-Thaiyya.mp3';
+import thamthakka_theenthakkathom from '../../public/assets/songs/Thamthakka-Theenthakka.mp3';
+import uyerin_uyere from '../../public/assets/songs/Uyerin-Uyere.mp3';
+import vaathi_raid_masstamilan_io from '../../public/assets/songs/Vaathi-Raid-MassTamilan.io.mp3';
+import yea_nenjea from '../../public/assets/songs/Yea-Nenjea.mp3';
+
+
 
 // cover
 import aedho from "../../public/assets/songscover/ethoseikirai.jpg"
@@ -108,7 +157,6 @@ import chudi from '../../public/assets/songscover/chuditharaninthu.jpg'
 import enidhayam from '../../public/assets/songscover/enidhayam.jpeg'
 import eniniya from '../../public/assets/songscover/eniniyathanimiye.jpg'
 import enjannal from '../../public/assets/songscover/enjannal.jpg'
-
 import ayayo from '../../public/assets/songscover/ayayo.jpeg'
 import enamo from '../../public/assets/songscover/enamoetho.jpeg'
 import enjeev from '../../public/assets/songscover/enjeevan.jpeg'
@@ -116,12 +164,10 @@ import ennavilai from '../../public/assets/songscover/ennavilai.jpeg'
 import evandi from '../../public/assets/songscover/evandi.jpeg'
 import eysanda from '../../public/assets/songscover/eysandakara.jpeg'
 import heyminnale from '../../public/assets/songscover/heyminnale.jpg'
-import loveu from '../../public/assets/songscover/heyminnale.jpg'
 import inukon from '../../public/assets/songscover/inukonjanemram.jpg'
 import irumbile from '../../public/assets/songscover/irumbile.jpeg'
 import ithuvarai from '../../public/assets/songscover/ithuvarai.jpg'
 import podapo from '../../public/assets/songscover/podapod.jpg'
-
 import kaatrkulle from '../../public/assets/songscover/kaatrukulle.jpg';
 import kadhalanukkal from '../../public/assets/songscover/kadhalanukkal.jpg';
 import kadhalvaithu from '../../public/assets/songscover/kadhalvaithu.jpeg';
@@ -181,6 +227,56 @@ import vizhimoodi from '../../public/assets/songscover/vizhimoodi.jpg';
 import vizhiyil from '../../public/assets/songscover/vizhiyil un vizhiyil.jpg';
 import yen_minukki from '../../public/assets/songscover/yen minukki.jpg';
 import ilikeu from '../../public/assets/songscover/ilikeu.jpg';
+import asai_asai_cover from '../../public/assets/songscover/asai_asai_cover.jpg';
+import anbe_sivam_cover from '../../public/assets/songscover/anbe_sivam_cover.jpg';
+import anbe_anbe_cover from '../../public/assets/songscover/anbe_anbe_cover.jpg';
+import antha_nilavathan_masstamilan_io_cover from '../../public/assets/songscover/antha_nilavathan_masstamilan_io_cover.jpg';
+import azhagooril_poothavale_cover from '../../public/assets/songscover/azhagooril_poothavale_cover.jpg';
+import dhimsu_katta_cover from '../../public/assets/songscover//dhimsu_katta_cover.jpeg';
+import en_uyire_cover from '../../public/assets/songscover/en_uyire_cover.jpg';
+import ennake_ennake_cover from '../../public/assets/songscover/ennake_ennake_cover.jpeg';
+import ennavale_ennavale_cover from '../../public/assets/songscover/ennavale_ennavale_cover.jpg';
+import ennodu_laila_cover from '../../public/assets/songscover/ennodu_laila_cover.jpg';
+import idhuthanaa_cover from '../../public/assets/songscover/idhuthanaa_cover.jpg';
+import ilankaathu_veesuthey_cover from '../../public/assets/songscover/ilankaathu_veesuthey_cover.jpg';
+import kaadhal_vandhal_cover from '../../public/assets/songscover/kaadhal_vandhal_cover.jpg';
+import kadhal_oviyam_masstamilan_io_cover from '../../public/assets/songscover/kadhal_oviyam_masstamilan_io_cover.jpg';
+import kadhal_solvadhu_cover from '../../public/assets/songscover/kadhal_solvadhu_cover.jpeg';
+import kammaniye_masstamilan_com_cover from '../../public/assets/songscover/kammaniye_masstamilan_com_cover.jpg';
+import kannoodu_kanbarellam_cover from '../../public/assets/songscover/kannoodu_kanbarellam_cover.jpg';
+import malligaiye_malligaiye_cover from '../../public/assets/songscover/malligaiye_malligaiye_cover.jpg';
+import margazhi_thingal_cover from '../../public/assets/songscover/margazhi_thingal_cover.jpeg';
+import master_the_blaster_masstamilan_io_cover from '../../public/assets/songscover/master_the_blaster_masstamilan_io_cover.jpg';
+import may_madham_cover from '../../public/assets/songscover/may_madham_cover.jpg';
+import mazhai_varum_arikuri_cover from '../../public/assets/songscover/mazhai_varum_arikuri_cover.jpg';
+import melliname_mellinamae_cover from '../../public/assets/songscover//melliname_mellinamae_cover.jpeg';
+import minnalai_pidithu_cover from '../../public/assets/songscover/minnalai_pidithu_cover.jpg';
+import munbe_vaa_cover from '../../public/assets/songscover/munbe_vaa_cover.jpeg';
+import nee_kaatru_naan_maram_masstamilan_com_cover from '../../public/assets/songscover/nee_kaatru_naan_maram_masstamilan_com_cover.jpg';
+import nee_thoongum_naerathil_masstamilan_com_cover from '../../public/assets/songscover//nee_thoongum_naerathil_masstamilan_com_cover.jpeg';
+import nenjinline_nenjinline_cover from '../../public/assets/songscover/nenjinline_nenjinline_cover.jpg';
+import new_york_nagaram_cover from '../../public/assets/songscover/new_york_nagaram_cover.jpg';
+import nilavai_kondu_vaa_cover from '../../public/assets/songscover/nilavai_kondu_vaa_cover.jpg';
+import oru_koottu_kili_cover from '../../public/assets/songscover/oru_koottu_kili_cover.jpg';
+import oru_thadavai_cover from '../../public/assets/songscover/oru_thadavai_cover.jpg';
+import oru_jeevan_azhaithathu_masstamilan_io_cover from '../../public/assets/songscover/oru_jeevan_azhaithathu_masstamilan_io_cover.jpg';
+import poi_solla_intha_manasukku_cover from '../../public/assets/songscover/poi_solla_intha_manasukku_cover.jpg';
+import poovaasam_cover from '../../public/assets/songscover/poovaasam_cover.jpeg';
+import poovukkul_cover from '../../public/assets/songscover/poovukkul_cover.jpeg';
+import pottu_vaithu_cover from '../../public/assets/songscover/pottu_vaithu_cover.jpg';
+import pudichirukku_cover from '../../public/assets/songscover/pudichirukku_cover.jpg';
+import sahana_saral_thoo_cover from '../../public/assets/songscover/sahana_saral_thoo_cover.jpg';
+import sandhossa_kanneere_cover from '../../public/assets/songscover/sandhossa_kanneere_cover.jpg';
+import senthoora_poove_cover from '../../public/assets/songscover/senthoora_poove_cover.jpg';
+import sona_sona_cover from '../../public/assets/songscover/sona_sona_cover.jpeg';
+import thaiyya_thaiyya_cover from '../../public/assets/songscover/thaiyya_thaiyya_cover.jpg';
+import thamthakka_theenthakkathom_cover from '../../public/assets/songscover//thamthakka_theenthakkathom_cover.jpeg';
+import uyerin_uyere_cover from '../../public/assets/songscover/uyerin_uyere_cover.jpeg';
+import vaathi_raid_masstamilan_io_cover from '../../public/assets/songscover/vaathi_raid_masstamilan_io_cover.jpeg';
+import yea_nenjea_cover from '../../public/assets/songscover/yeh-nenje.png';
+import unnaipatha_cover from '../../public/assets/songscover/unnaipartha_cover.jpeg';
+
+
 
 
 
@@ -904,7 +1000,7 @@ export const songs: Song[] = [
   artist: 'Unknown',
   album: 'Unknown',
   
-  cover: unnai_paartha_pinbu,
+  cover: unnaipatha_cover,
   audioUrl: unnai_paartha_pinbu
 },
 {
@@ -953,16 +1049,11 @@ export const songs: Song[] = [
   audioUrl: veyilodu_vilayadi
 },
 
-
-
-
-
 {
   id: '87',
   title: 'Vithi Moodi Yosithaal',
   artist: 'Ayan',
   album: 'Unknown',
-  
   cover: vizhimoodi,
   audioUrl: vithi_moodi_yosithaal
 },
@@ -992,6 +1083,381 @@ export const songs: Song[] = [
     
     cover: yen_minukki,
     audioUrl: yen_minukki_masstamilan_org
-  }
-
-];
+  },
+{
+  id: '91',
+  title: 'Asai Asai',
+  artist: 'Dhool',
+  album: 'Unknown',
+  cover: asai_asai_cover,
+  audioUrl: asai_asai
+},
+{
+  id: '92',
+  title: 'Anbe Sivam',
+  artist: 'anbe sivam',
+  album: 'Unknown',
+  cover: anbe_sivam_cover,
+  audioUrl: anbe_sivam
+},
+{
+  id: '93',
+  title: 'Anbe Anbe',
+  artist: 'jeans',
+  album: 'Unknown',
+  cover: anbe_anbe_cover,
+  audioUrl: anbe_anbe
+},
+{
+  id: '94',
+  title: 'Antha Nilavathan MassTamilan.io',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: antha_nilavathan_masstamilan_io_cover,
+  audioUrl: antha_nilavathan_masstamilan_io
+},
+{
+  id: '95',
+  title: 'Azhagooril Poothavale',
+  artist: 'thirumalai',
+  album: 'Unknown',
+  cover: azhagooril_poothavale_cover,
+  audioUrl: azhagooril_poothavale
+},
+{
+  id: '96',
+  title: 'Dhimsu Katta',
+  artist: 'thirumalai',
+  album: 'Unknown',
+  cover: dhimsu_katta_cover,
+  audioUrl: dhimsu_katta
+},
+{
+  id: '97',
+  title: 'En Uyire',
+  artist: 'uyire',
+  album: 'Unknown',
+  cover: en_uyire_cover,
+  audioUrl: en_uyire
+},
+{
+  id: '98',
+  title: 'Ennake Ennake',
+  artist: 'jeans',
+  album: 'Unknown',
+  cover: ennake_ennake_cover,
+  audioUrl: ennake_ennake
+},
+{
+  id: '99',
+  title: 'Ennavale Ennavale',
+  artist: 'MR.romeo',
+  album: 'Unknown',
+  cover: ennavale_ennavale_cover,
+  audioUrl: ennavale_ennavale
+},
+{
+  id: '100',
+  title: 'Ennodu Laila',
+  artist: 'Badri',
+  album: 'Unknown',
+  cover: ennodu_laila_cover,
+  audioUrl: ennodu_laila
+},
+{
+  id: '101',
+  title: 'Idhuthanaa',
+  artist: 'saami',
+  album: 'Unknown',
+  cover: idhuthanaa_cover,
+  audioUrl: idhuthanaa
+},
+{
+  id: '102',
+  title: 'Ilankaathu Veesuthey',
+  artist: 'Pithamagan',
+  album: 'Unknown',
+  cover: ilankaathu_veesuthey_cover,
+  audioUrl: ilankaathu_veesuthey
+},
+{
+  id: '103',
+  title: 'Kaadhal Vandhal',
+  artist: 'iyarkai',
+  album: 'Unknown',
+  cover: kaadhal_vandhal_cover,
+  audioUrl: kaadhal_vandhal
+},
+{
+  id: '104',
+  title: 'Kadhal Oviyam MassTamilan.io',
+  artist: 'alaigal oivathillai',
+  album: 'Unknown',
+  cover: kadhal_oviyam_masstamilan_io_cover,
+  audioUrl: kadhal_oviyam_masstamilan_io
+},
+{
+  id: '105',
+  title: 'Kadhal Solvadhu',
+  artist: 'Badri',
+  album: 'Unknown',
+  cover: kadhal_solvadhu_cover,
+  audioUrl: kadhal_solvadhu
+},
+{
+  id: '106',
+  title: 'Kammaniye MassTamilan.com',
+  artist: '6 to 60',
+  album: 'Unknown',
+  cover: kammaniye_masstamilan_com_cover,
+  audioUrl: kammaniye_masstamilan_com
+},
+{
+  id: '107',
+  title: 'Kannoodu Kanbarellam',
+  artist: 'jeans',
+  album: 'Unknown',
+  cover: kannoodu_kanbarellam_cover,
+  audioUrl: kannoodu_kanbarellam
+},
+{
+  id: '108',
+  title: 'Malligaiye Malligaiye',
+  artist: 'ah aah',
+  album: 'Unknown',
+  cover: malligaiye_malligaiye_cover,
+  audioUrl: malligaiye_malligaiye
+},
+{
+  id: '109',
+  title: 'Margazhi Thingal',
+  artist: 'sangamam',
+  album: 'Unknown',
+  cover: margazhi_thingal_cover,
+  audioUrl: margazhi_thingal
+},
+{
+  id: '110',
+  title: 'Master the Blaster MassTamilan.io',
+  artist: 'Master',
+  album: 'Unknown',
+  cover: master_the_blaster_masstamilan_io_cover,
+  audioUrl: master_the_blaster_masstamilan_io
+},
+{
+  id: '111',
+  title: 'May Madham',
+  artist: 'shajahan',
+  album: 'Unknown',
+  cover: may_madham_cover,
+  audioUrl: may_madham
+},
+{
+  id: '112',
+  title: 'Mazhai Varum Arikuri',
+  artist: 'Veppam',
+  album: 'Unknown',
+  cover: mazhai_varum_arikuri_cover,
+  audioUrl: mazhai_varum_arikuri
+},
+{
+  id: '113',
+  title: 'Melliname Mellinamae',
+  artist: 'shajahan',
+  album: 'Unknown',
+  cover: melliname_mellinamae_cover,
+  audioUrl: melliname_mellinamae
+},
+{
+  id: '114',
+  title: 'Minnalai Pidithu',
+  artist: 'shajahan',
+  album: 'Unknown',
+  cover: minnalai_pidithu_cover,
+  audioUrl: minnalai_pidithu
+},
+{
+  id: '115',
+  title: 'Munbe Vaa',
+  artist: 'sillunu oru kadhal',
+  album: 'Unknown',
+  cover: munbe_vaa_cover,
+  audioUrl: munbe_vaa
+},
+{
+  id: '116',
+  title: 'Nee Kaatru Naan Maram MassTamilan.com',
+  artist: 'vijay',
+  album: 'Unknown',
+  cover: nee_kaatru_naan_maram_masstamilan_com_cover,
+  audioUrl: nee_kaatru_naan_maram_masstamilan_com
+},
+{
+  id: '117',
+  title: 'Nee Thoongum Naerathil MassTamilan.com',
+  artist: 'manasellam',
+  album: 'Unknown',
+  cover: nee_thoongum_naerathil_masstamilan_com_cover,
+  audioUrl: nee_thoongum_naerathil_masstamilan_com
+},
+{
+  id: '118',
+  title: 'Nenjinline Nenjinline',
+  artist: 'uyire',
+  album: 'Unknown',
+  cover: nenjinline_nenjinline_cover,
+  audioUrl: nenjinline_nenjinline
+},
+{
+  id: '119',
+  title: 'New York Nagaram',
+  artist: 'sillunu oru kadhal',
+  album: 'Unknown',
+  cover: new_york_nagaram_cover,
+  audioUrl: new_york_nagaram
+},
+{
+  id: '120',
+  title: 'Nilavai Kondu Vaa',
+  artist: 'vaali',
+  album: 'Unknown',
+  cover: nilavai_kondu_vaa_cover,
+  audioUrl: nilavai_kondu_vaa
+},
+{
+  id: '121',
+  title: 'Oru Koottu Kili',
+  artist: 'rajni',
+  album: 'Unknown',
+  cover: oru_koottu_kili_cover,
+  audioUrl: oru_koottu_kili
+},
+{
+  id: '122',
+  title: 'Oru Thadavai',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: oru_thadavai_cover,
+  audioUrl: oru_thadavai
+},
+{
+  id: '123',
+  title: 'Oru Jeevan Azhaithathu MassTamilan.io',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: oru_jeevan_azhaithathu_masstamilan_io_cover,
+  audioUrl: oru_jeevan_azhaithathu_masstamilan_io
+},
+{
+  id: '124',
+  title: 'Poi Solla Intha Manasukku',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: poi_solla_intha_manasukku_cover,
+  audioUrl: poi_solla_intha_manasukku
+},
+{
+  id: '125',
+  title: 'Poovaasam',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: poovaasam_cover,
+  audioUrl: poovaasam
+},
+{
+  id: '126',
+  title: 'Poovukkul',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: poovukkul_cover,
+  audioUrl: poovukkul
+},
+{
+  id: '127',
+  title: 'Pottu Vaithu',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: pottu_vaithu_cover,
+  audioUrl: pottu_vaithu
+},
+{
+  id: '128',
+  title: 'Pudichirukku',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: pudichirukku_cover,
+  audioUrl: pudichirukku
+},
+{
+  id: '129',
+  title: 'Sahana Saral Thoo',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: sahana_saral_thoo_cover,
+  audioUrl: sahana_saral_thoo
+},
+{
+  id: '130',
+  title: 'Sandhossa Kanneere',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: sandhossa_kanneere_cover,
+  audioUrl: sandhossa_kanneere
+},
+{
+  id: '131',
+  title: 'Senthoora Poove',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: senthoora_poove_cover,
+  audioUrl: senthoora_poove
+},
+{
+  id: '132',
+  title: 'Sona Sona',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: sona_sona_cover,
+  audioUrl: sona_sona
+},
+{
+  id: '133',
+  title: 'Thaiyya Thaiyya',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: thaiyya_thaiyya_cover,
+  audioUrl: thaiyya_thaiyya
+},
+{
+  id: '134',
+  title: 'Thamthakka Theenthakkathom',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: thamthakka_theenthakkathom_cover,
+  audioUrl: thamthakka_theenthakkathom
+},
+{
+  id: '135',
+  title: 'Uyerin Uyere',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: uyerin_uyere_cover,
+  audioUrl: uyerin_uyere
+},
+{
+  id: '136',
+  title: 'Vaathi Raid MassTamilan.io',
+  artist: 'Master',
+  album: 'Unknown',
+  cover: vaathi_raid_masstamilan_io_cover,
+  audioUrl: vaathi_raid_masstamilan_io
+},
+{
+  id: '137',
+  title: 'Yea Nenjea',
+  artist: 'Unknown',
+  album: 'Unknown',
+  cover: yea_nenjea_cover,
+  audioUrl: yea_nenjea
+}
+]
