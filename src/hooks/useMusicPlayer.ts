@@ -7,7 +7,7 @@ export const useMusicPlayer = (songs: Song[]) => {
     currentSong: null,
     isPlaying: false,
     currentTime: 0,
-    volume: 75,
+    volume: 65,
     shuffle: false,
     repeat: 'none'
   });
